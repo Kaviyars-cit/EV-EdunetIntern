@@ -1,171 +1,142 @@
-<h1>🚗 EV Price Prediction Using Machine Learning</h1>
-<h3>AICTE – Edunet Foundation Virtual Internship</h3>
-<p><b>Theme:</b> Electrical Vehicles & Energy<br>
-<b>Partner:</b> Edunet Foundation | Shell</p>
+Week 2 – Machine Learning Model Training
+✔️ Tasks Completed
 
-<hr>
+Loaded dataset in Google Colab
 
-<h2>⚡ Powering Tomorrow’s Electric Revolution</h2>
-<p>Predicting the Price of Electric Vehicles through Data Intelligence</p>
+Performed:
 
-<hr>
+Data Cleaning
 
-<h2>📌 Overview</h2>
-<p>Electric Vehicles (EVs) are transforming transportation by offering cleaner and more efficient alternatives. 
-Understanding the factors that influence EV prices helps customers, researchers, and manufacturers make informed decisions.</p>
+Feature Selection
 
-<p>This project uses <b>Machine Learning</b> to predict the price of an electric vehicle using features like range, speed, efficiency, acceleration, and more.</p>
+Label Encoding
 
-<hr>
+Feature Scaling
 
-<h2>✅ 📅 Week-Wise Internship Progress</h2>
+Trained three ML models:
 
-<h3>✅ Week 1 – Repository Setup & Dataset Exploration</h3>
-<ul>
-  <li>GitHub repository created and structured</li>
-  <li>Datasets added (cleaned CSV files)</li>
-  <li>Initial README drafted</li>
-  <li>Performed basic data checks: missing values, duplicates, outliers</li>
-  <li>Analyzed feature distributions and dataset structure</li>
-</ul>
+Linear Regression
 
-<b>Week 1 Improvements:</b>
-<ul>
-  <li>Organized folders and cleaned the dataset</li>
-  <li>Added improved README structure</li>
-  <li>Added output screenshots to documentation</li>
-</ul>
+Decision Tree Regressor
 
-<hr>
+Random Forest Regressor ✅ Best
 
-<h3>✅ Week 2 – Machine Learning Model Training</h3>
-<ul>
-  <li>Loaded dataset in Google Colab</li>
-  <li>Performed data preprocessing:
-    <ul>
-      <li>Cleaning</li>
-      <li>Feature Selection</li>
-      <li>Encoding</li>
-      <li>Scaling</li>
-    </ul>
-  </li>
-  <li>Trained the following models:
-    <ul>
-      <li>Linear Regression</li>
-      <li>Decision Tree Regressor</li>
-      <li>Random Forest Regressor (best performance)</li>
-    </ul>
-  </li>
-  <li>Evaluated using MAE, RMSE, and R² score</li>
-  <li>Exported model and scaler for next weeks</li>
-</ul>
+Evaluated using:
 
-<b>Files Added in Week 2:</b>
-<ul>
-  <li><code>Week2_Model_Training.ipynb</code> – ML workflow notebook</li>
-  <li><code>ev_price_model.pkl</code> – Trained Random Forest model</li>
-  <li><code>scaler.pkl</code> – Scaler used during training</li>
-</ul>
+MAE
 
-<b>Week 2 Insights:</b>
-<ul>
-  <li>Higher range EVs tend to have higher prices</li>
-  <li>Efficiency and performance influence pricing significantly</li>
-  <li>Random Forest provided the most reliable predictions</li>
-</ul>
+RMSE
 
-<hr>
+R² Score
 
-<h2>📊 Dataset Information</h2>
-<p><b>Dataset Name:</b> Vehicle Dataset 2024<br>
-<b>Source:</b> Kaggle<br>
-<b>File Used:</b> car_data_clean.csv</p>
+Selected Random Forest (highest accuracy, lowest error)
 
-<table>
-<tr><th>Feature</th><th>Description</th></tr>
-<tr><td>Range (km)</td><td>Distance per full charge</td></tr>
-<tr><td>Top Speed (km/h)</td><td>Maximum specified speed</td></tr>
-<tr><td>Efficiency (Wh/km)</td><td>Energy consumption per km</td></tr>
-<tr><td>Acceleration (0–100 km/h)</td><td>Time taken to reach 100 km/h</td></tr>
-<tr><td>Seats</td><td>Seating capacity</td></tr>
-<tr><td>Price (USD)</td><td>Target variable</td></tr>
-</table>
+Exported model + scaler for future weeks
 
-<hr>
+✔️ Files Added
+File Name	Description
+Week2_Model_Training.ipynb	Full ML workflow notebook
+ev_price_model.pkl	Saved Random Forest model
+scaler.pkl	Saved StandardScaler used for training
+✔️ Key Insights
 
-<h2>🧠 Technologies Used</h2>
-<ul>
-  <li>Python</li>
-  <li>Google Colab</li>
-  <li>Pandas, NumPy</li>
-  <li>Matplotlib, Seaborn</li>
-  <li>Scikit-learn</li>
-  <li>Joblib</li>
-</ul>
+EVs with higher range and better efficiency are priced higher
 
-<hr>
+Acceleration and top speed influence price moderately
 
-<h2>🔧 Machine Learning Models</h2>
-<ul>
-  <li>Linear Regression (baseline)</li>
-  <li>Decision Tree Regressor</li>
-  <li><b>Random Forest Regressor – Best Model</b></li>
-</ul>
+Feature correlation revealed strong dependencies with performance metrics
 
-<h3>📈 Evaluation Metrics</h3>
-<ul>
-  <li>Mean Absolute Error (MAE)</li>
-  <li>Root Mean Squared Error (RMSE)</li>
-  <li>R² Score</li>
-</ul>
+✅ 📊 Dataset Information
 
-<hr>
+Dataset Name: Vehicle Dataset 2024
+Source: Kaggle
+File Used: car_data_clean.csv
 
-<h2>📉 Final Results</h2>
-<ul>
-  <li>Random Forest delivered highest accuracy</li>
-  <li>EV range & efficiency strongly influence pricing</li>
-  <li>Model exported for chatbot and Streamlit app</li>
-</ul>
+🔍 Features
+Feature	Description
+Range (km)	Distance per charge
+Top Speed (km/h)	Maximum speed
+Efficiency (Wh/km)	Energy consumed
+Acceleration (0–100 km/h)	Time to reach 100 km/h
+Seats	Seating capacity
+Price (USD)	Target variable
+✅ 🧠 Technologies Used
 
-<hr>
+Python 🐍
 
-<h2>🧩 Project Structure</h2>
-<pre>
+Google Colab / Jupyter Notebook
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+Joblib
+
+✅ 🔧 Machine Learning Models Used
+
+Linear Regression – Baseline comparison
+
+Decision Tree Regressor – Handles non-linear relationships
+
+Random Forest Regressor – ✅ Best performing ensemble model
+
+📈 Evaluation Metrics
+
+Mean Absolute Error (MAE)
+
+Root Mean Squared Error (RMSE)
+
+R² Score
+
+✅ 📉 Results Summary
+
+Random Forest achieved the highest accuracy
+
+Range & efficiency had the strongest price correlation
+
+Model was stable with low variance
+
+Exported trained model ready for:
+
+Week 3 Chatbot
+
+Week 4 Streamlit App
+
+✅ 🧩 Project Structure
 EV-Price-Prediction/
 │── README.md
 │── Week2_Model_Training.ipynb
 │── ev_price_model.pkl
 │── scaler.pkl
 │── car_data_clean.csv
+│── ev_sales_adoption.csv
 │── images/
 │── scripts/
-</pre>
 
-<hr>
+✅ 🧠 Learning Outcomes
 
-<h2>🧠 Learning Outcomes</h2>
-<ul>
-  <li>Data preprocessing & visualization</li>
-  <li>Regression model training & evaluation</li>
-  <li>Understanding feature correlations</li>
-  <li>Model saving & deployment preparation</li>
-  <li>GitHub documentation</li>
-</ul>
+Understood EV performance datasets
 
-<hr>
+Hands-on ML preprocessing & model selection
 
-<h2>🚀 Future Enhancements</h2>
-<ul>
-  <li>Week 3 – Build a model-integrated Chatbot</li>
-  <li>Week 4 – Create a Streamlit prediction app</li>
-  <li>Compare EV brands and battery performance</li>
-  <li>Apply deep learning models for improved accuracy</li>
-</ul>
+Scaler & model persistence
 
-<hr>
+Exploratory Data Analysis
 
-<h2>💬 Acknowledgements</h2>
-<p>This project was developed as part of the <b>AICTE – Edunet Foundation Virtual Internship</b>,
-under the theme: <b>Electrical Vehicles & Energy</b>, in partnership with <b>Shell</b>.</p>
-<p>Special thanks to mentors and coordinators for their guidance.</p>
+Feature correlation understanding
+
+GitHub project documentation skills
+
+✅ 🚀 Future Enhancements
+
+✅ Week 3: Build a ChatBot that interacts with the trained model
+
+✅ Week 4: Deploy a Streamlit Web App for real-time predictions
+
+Add brand-wise EV comparison visualizations
+
+Expand dataset size for more accuracy
+
+Integrate deep learning models
