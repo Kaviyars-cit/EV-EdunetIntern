@@ -277,7 +277,7 @@ Understanding the factors that influence EV prices helps customers, researchers,
 <pre>
 EV-Price-Prediction/
 │── README.md
-│── Week2_Model_Training.ipynb
+│── ML Training Model.ipynb
 │── ev_price_model.pkl
 │── scaler.pkl
 │── car_data_clean.csv
