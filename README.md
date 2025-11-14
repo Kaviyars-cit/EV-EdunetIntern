@@ -254,7 +254,7 @@ Understanding the factors that influence EV prices helps customers, researchers,
   <li><b>Files Added in Week 3:</b></li>
   <ul>
     <li><code>main.py</code> – Python front-end interface</li>
-    This is the Website's Frontend attached to the final project
+    This is the Website's Frontend attached to the final project and ml model zipped together
   </ul>
 
   <br>
@@ -328,9 +328,9 @@ EV-Price-Prediction/
 │── ML Training Model.ipynb
 │── ev_price_model.pkl
 │── scaler.pkl
-│── car_data_clean.csv
-│── images/
-│── scripts/
+│── ev_sales_adoption.csv
+│── CarPrice_Assignment.csv
+│── main.py
 </pre>
 
 <hr>
@@ -346,15 +346,7 @@ EV-Price-Prediction/
 
 <hr>
 
-<h2>🚀 Future Enhancements</h2>
-<ul>
-  <li>Week 3 – Build a model-integrated Chatbot</li>
-  <li>Week 4 – Create a Streamlit prediction app</li>
-  <li>Compare EV brands and battery performance</li>
-  <li>Apply deep learning models for improved accuracy</li>
-</ul>
 
-<hr>
 
 
 
