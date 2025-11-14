@@ -97,9 +97,15 @@ The *Random Forest Regressor* achieved the best accuracy and the lowest predicti
 - *Acceleration and top speed* significantly influence the final price.  
 - *Energy efficiency* is a key factor determining cost-performance ratio.  
 
-### 🖼 Output Visualization:
+## 🖼 Output Visualization:
 
-<img width="1918" height="871" alt="Screenshot 2025-10-30 212759" src="https://github.com/user-attachments/assets/d3749c65-e0b2-4ede-a347-5eb4688ea4ec" />
+
+### Prediction Tool:
+<img width="1920" height="1020" alt="Screenshot 2025-11-13 134100" src="https://github.com/user-attachments/assets/b1aff9b0-00ad-4ee8-9183-a672fab77fcb" />
+<img width="1920" height="1020" alt="Screenshot 2025-11-13 134107" src="https://github.com/user-attachments/assets/4b6fc5ea-e8f8-4f9c-a43e-997f73d894b5" />
+
+### Chatbot Visual:
+<img width="1920" height="1020" alt="Screenshot 2025-11-13 134144" src="https://github.com/user-attachments/assets/521f10f2-2980-4959-94a6-c2c588399e8f" />
 
 ---
 
@@ -127,8 +133,9 @@ The *Random Forest Regressor* achieved the best accuracy and the lowest predicti
 ## 💫 *Landing Page*
 
 > ⚡ “Powering Tomorrow’s Electric Revolution”  
-> Predicting the Price of Electric Vehicles through Data Intelligence<img width="1897" height="861" alt="Screenshot 2025-10-30 212708" src="https://github.com/user-attachments/assets/bf03b469-9c46-4fa5-b48d-5034239e5869" />
-> 
+> Predicting the Price of Electric Vehicles through Data Intelligence
+> <img width="1920" height="1020" alt="Screenshot 2025-11-13 134015" src="https://github.com/user-attachments/assets/d6d26a2c-9f18-4c1a-88de-462e3698db45" />
+
 
 ---
 
@@ -218,6 +225,47 @@ Understanding the factors that influence EV prices helps customers, researchers,
 </ul>
 
 <hr>
+<h3>✅Week 3 – Final Project Development & Integration</h3>
+
+<ul>
+  <li><b>Week 3 – Model Integration & Python Front-End Development</b></li>
+
+  <li>Integrated the trained Random Forest model and scaler into the Python-based front-end.</li>
+
+  <li>Created a complete front-end interface using Python files in VS Code.</li>
+
+  <li>Implemented user input handling for EV specifications (battery, brand, range, power, etc.).</li>
+
+  <li>Performed all preprocessing stages inside the Python front-end:
+    <ul>
+      <li>Encoding</li>
+      <li>Scaling</li>
+    </ul>
+  </li>
+
+  <li>Implemented the price prediction logic using the imported ML model.</li>
+
+  <li>Displayed predictions and results in the Python front-end interface.</li>
+
+  <li>Organized and cleaned the entire project structure for final submission.</li>
+
+  <br>
+
+  <li><b>Files Added in Week 3:</b></li>
+  <ul>
+    <li><code>main.py</code> – Python front-end interface</li>
+    This is the Website's Frontend attached to the final project
+  </ul>
+
+  <br>
+
+  <li><b>Week 3 Insights:</b></li>
+  <ul>
+    <li>Python-based front-end successfully connected with ML model for real-time predictions.</li>
+    <li>Fully functional EV Price Prediction workflow implemented without using Streamlit.</li>
+    <li>Final project optimized for LMS submission with a clean and lightweight structure.</li>
+  </ul>
+</ul>
 
 <h2>📊 Dataset Information</h2>
 <p><b>Dataset Name:</b> Vehicle Dataset 2024<br>
