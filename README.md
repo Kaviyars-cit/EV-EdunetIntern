@@ -253,7 +253,7 @@ Understanding the factors that influence EV prices helps customers, researchers,
 
   <li><b>Files Added in Week 3:</b></li>
   <ul>
-    <li><code>main.py</code> – Python front-end interface</li>
+    <li><code>frontend_react website.zip</code> – Python front-end interface</li>
     This is the Website's Frontend attached to the final project and ml model zipped together
   </ul>
 
@@ -330,7 +330,7 @@ EV-Price-Prediction/
 │── scaler.pkl
 │── ev_sales_adoption.csv
 │── CarPrice_Assignment.csv
-│── frontend_react website
+│── frontend_react website.zip
 </pre>
 
 <hr>
