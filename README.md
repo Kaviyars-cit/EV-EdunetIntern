@@ -330,7 +330,7 @@ EV-Price-Prediction/
 │── scaler.pkl
 │── ev_sales_adoption.csv
 │── CarPrice_Assignment.csv
-│── main.py
+│── frontend_react website
 </pre>
 
 <hr>
